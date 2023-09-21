@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+# Create a list of users
+users = ["User1", "User2", "User3"]
 
-a = 2
-b = 2
-c = a + b
+# Loop through the list and print each user
+for user in users:
+    print(f"User: {user}")
 
+# the common greeting
 print("Python says: Hello, World!")
-print("%s + %s = %s" % (a, b, c))
-
